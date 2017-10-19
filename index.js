@@ -7,7 +7,7 @@ var precipitation = {
     "Thunderstorm": "http://chromecastbg.alexmeub.com/images/1200_5-07-13-hodgeman-ks-lightning-supercell.png",
     "Mist": "http://chromecastbg.alexmeub.com/images/1200_DSC-0853.JPG",
     "Smoke": "https://wallpaperscraft.com/image/night_city_fires_light_helicopters_smoke_skyscrapers_21724_1920x1080.jpg",
-    "Fog": "https://journeywithparkinsons.files.wordpress.com/2015/03/foggy-sunrise-at-golden-gate-bridge-wallpapers-hd.jpg?w=1038&h=576&crop=1"
+    "Fog": "https://2sltl91mfmb53nr7sf3j0zxj-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/GoldenGateBridge_SanFrancisco_FoggySunset_Pano_CROP_MORE_Web_2000x855_rev0.jpg"
 };
 $(document).ready(function() {
   var url = "https://fcc-weather-api.glitch.me/api/current?";
