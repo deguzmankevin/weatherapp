@@ -1,12 +1,13 @@
 var precipitation = {
-  "Clouds": "http://chromecastbg.alexmeub.com/images/1200_AF1QipN0SqLKlLFs-Q8N1Mg4F_BneQUSlTLPFf1uNYeW.jpg",
-  "Clear": "http://chromecastbg.alexmeub.com/images/1200_Golden-Gate-Afternoon.jpg", 
-  "Rain": "http://hdwallpaperia.com/wp-content/uploads/2013/11/Scary-House-Wallpaper.jpg",
-  "Snow": "http://chromecastbg.alexmeub.com/images/1200_IMG-1221.jpg",
-  "Haze": "http://chromecastbg.alexmeub.com/images/1200_01-MG-3677.jpg",
-  "Thunderstorm": "http://chromecastbg.alexmeub.com/images/1200_5-07-13-hodgeman-ks-lightning-supercell.png", 
-  "Mist": "http://chromecastbg.alexmeub.com/images/1200_DSC-0853.JPG",
-  "Smoke": "https://wallpaperscraft.com/image/night_city_fires_light_helicopters_smoke_skyscrapers_21724_1920x1080.jpg"
+    "Clouds": "http://chromecastbg.alexmeub.com/images/1200_AF1QipN0SqLKlLFs-Q8N1Mg4F_BneQUSlTLPFf1uNYeW.jpg",
+    "Clear": "http://chromecastbg.alexmeub.com/images/1200_Golden-Gate-Afternoon.jpg",
+    "Rain": "http://hdwallpaperia.com/wp-content/uploads/2013/11/Scary-House-Wallpaper.jpg",
+    "Snow": "http://chromecastbg.alexmeub.com/images/1200_IMG-1221.jpg",
+    "Haze": "http://chromecastbg.alexmeub.com/images/1200_01-MG-3677.jpg",
+    "Thunderstorm": "http://chromecastbg.alexmeub.com/images/1200_5-07-13-hodgeman-ks-lightning-supercell.png",
+    "Mist": "http://chromecastbg.alexmeub.com/images/1200_DSC-0853.JPG",
+    "Smoke": "https://wallpaperscraft.com/image/night_city_fires_light_helicopters_smoke_skyscrapers_21724_1920x1080.jpg",
+    "Fog": "https://2sltl91mfmb53nr7sf3j0zxj-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/GoldenGateBridge_SanFrancisco_FoggySunset_Pano_CROP_MORE_Web_2000x855_rev0.jpg"
 };
 $(document).ready(function() {
   var url = "https://fcc-weather-api.glitch.me/api/current?";
@@ -75,7 +76,11 @@ $(document).ready(function() {
         }
         else if (type === "Smoke") {
             $("#background").css('background-image', "url" + "(\"" + precipitation[type] + "\")");
-           $('i').attr('class', "wi wi-smoke");
+            $('i').attr('class', "wi wi-smoke");
+        }
+        else if (type === "Fog") {
+            $("#background").css('background-image', "url" + "(\"" + precipitation[type] + "\")");
+            $('i').attr('class', "wi wi-day-fog");
         }
         
         
