@@ -1,0 +1,25 @@
+#F{
+  background:none;
+  border:none;
+  color: #0066ff;
+  font-family: Bree Serif;
+  font-size:40px;
+}
+#TEMP, #city, #TYPE, #TIME{
+  font-family: Bree Serif;
+  font-size:40px;
+  color: white;
+  -webkit-text-stroke: 1px black;
+}
+
+.centered{
+  text-align:center;
+}
+#WEATHER{
+  font-size: 40px;
+    color: white;
+}
+#background{
+  background-image: url("");
+  background-size: 1400px;
+}
