@@ -1,7 +1,7 @@
 var precipitation = {
     "Clouds": "http://chromecastbg.alexmeub.com/images/1200_AF1QipN0SqLKlLFs-Q8N1Mg4F_BneQUSlTLPFf1uNYeW.jpg",
     "Clear": "http://chromecastbg.alexmeub.com/images/1200_Golden-Gate-Afternoon.jpg",
-    "Rain": "http://hdwallpaperia.com/wp-content/uploads/2013/11/Scary-House-Wallpaper.jpg",
+    "Rain": "http://photopeka.com/wp-content/uploads/2011/12/san-francisco-in-the-rain-L.jpg",
     "Snow": "http://chromecastbg.alexmeub.com/images/1200_IMG-1221.jpg",
     "Haze": "http://chromecastbg.alexmeub.com/images/1200_01-MG-3677.jpg",
     "Thunderstorm": "http://chromecastbg.alexmeub.com/images/1200_5-07-13-hodgeman-ks-lightning-supercell.png",
